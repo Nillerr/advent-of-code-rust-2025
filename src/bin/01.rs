@@ -4,7 +4,6 @@ use std::io::{BufRead, BufReader};
 use code_timing_macros::time_snippet;
 use const_format::concatcp;
 use adv_code_2025::*;
-use log::error;
 
 const DAY: &str = "01";
 const INPUT_FILE: &str = concatcp!("input/", DAY, ".txt");
